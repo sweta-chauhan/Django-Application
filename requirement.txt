@@ -1,0 +1,6 @@
+Django==1.11
+mysqlclient==1.4.6
+pip==20.1.1
+pytz==2020.1
+setuptools==44.1.1
+wheel==0.34.2
