@@ -1,0 +1,29 @@
+<h1>
+	Welcome to RMS
+</h1>
+<ul>
+	<li>
+		<h3>
+			User Info
+		</h3>
+		<ul>
+			{% for user in users %} 
+		    	<li>{{ user.id }} {{user.fname}} {{user.lname}}</li> 
+			{% endfor %}
+		</ul>
+		<hr/>
+	</li>
+	<li>
+		<h3>
+			Resource Info
+		</h3>
+
+		<ul>
+			{% for r in res %} 
+		    	<li>{{ r.id }}</li> 
+			{% endfor %}
+		</ul>
+		<hr/>
+	</li>
+</ul>
+
